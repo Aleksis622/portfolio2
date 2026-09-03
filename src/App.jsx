@@ -10,10 +10,10 @@ export default function App() {
 
   const projects = [
     {
-      title: "MyTrain",
-      short: "Train schedule & ticket system",
+      title: "Grade viewer",
+      short: "system where you can check student grades and change them",
       description: "Full Laravel + React system with real-time map and ticket management.",
-      image: "/train-preview.png"
+      image: "/Screenshot_4.png"
     },
     {
       title: "FakeStore",
