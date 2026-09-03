@@ -1,4 +1,4 @@
-export default function HeaderTabs({ activeTab, setActiveTab }) {
+export default function TabsHeader({ activeTab, setActiveTab }) {
   return (
     <div className="tabs-container">
       <div

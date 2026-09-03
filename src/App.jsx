@@ -1,5 +1,5 @@
 import { useState } from "react";
-import HeaderTabs from "./components/HeaderTabs";
+import HeaderTabs from "./components/TabsHeader.jsx";
 import ProjectCard from "./components/ProjectCard";
 import ProjectModal from "./components/ProjectModal";
 import AnimatedBackground from "./components/AnimatedBackground";
@@ -34,14 +34,14 @@ export default function App() {
           <div className="about-card">
             <h2>About Me</h2>
             <p>
-              I am a React developer who enjoys creating stylish, game-inspired UI
-              with clean professional layouts. My work blends modern design with
-              subtle aesthetics inspired by Zenless Zone Zero.
+              Hi my name is Aleksis Aleksandrs Eglitis i'm 19 years old and i'm a Web developer in a free time i play online chess and like to go for a walk.
+              I have some experience working with frameworks like React and Laravel and have some skills working with  these programming languages - PHP, Javascript, CSS, Tailwind CSS, HTML and MySQL. 
+
             </p>
           </div>
 
           <div className="nature-card">
-            <img src="/digital-illustration-brian-edward-miller-3-1024x768.jpg" alt="Nature Art" />
+            <img src="/images.jpg" alt="Nature Art" />
           </div>
         </section>
       )}
