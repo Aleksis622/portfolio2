@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --navy: #1C2333;
+  --indigo: #2A3144;
+  --teal: #6EC8C1;
+  --sand: #D8C9A5;
+  --fog: #ECEDEF;
+  --shadow: #0D0E11;
+}
+
+body {
+  background: var(--navy);
+  color: var(--fog);
+  font-family: "Inter", sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
