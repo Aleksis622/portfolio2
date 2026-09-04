@@ -12,14 +12,14 @@ export default function App() {
     {
       title: "Grade viewer",
       short: "system where you can check student grades and change them",
-      description: "Full Laravel + React system with real-time map and ticket management.",
+      description: "Project is made in open source using php as the main programming language.",
       image: "/Screenshot_4.png"
     },
     {
-      title: "FakeStore",
-      short: "E-commerce demo",
-      description: "React + Vite shop with product listing, cart, and API integration.",
-      image: "/fakestore-preview.png"
+      title: "Coming...",
+      short: "Coming...",
+      description: "Description coming...",
+      image: "/incoming-preview.png"
     }
   ];
 
