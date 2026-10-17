@@ -5,33 +5,64 @@
 }
 
 :root {
-  --bg: #0d0417;
-  --bg-alt: #170a29;
-  --card: #1f1035;
-  --card-alt: #261441;
-  --purple-deep: #5b21b6;
-  --purple-primary: #8b5cf6;
-  --purple-glow: #a855f7;
-  --purple-accent: #d8b4fe;
-  --text: #ffffff;
-  --text-muted: #ded4f2;
-  --shadow: #000000;
+  --bg: #1f2226;
+  --bg-alt: #24282d;
+  --surface: #2a2e34;
+  --surface-2: #33383f;
+  --line: rgba(255, 255, 255, 0.07);
+  --teal: #14b3bd;
+  --teal-strong: #0e959e;
+  --teal-soft: rgba(20, 179, 189, 0.14);
+  --text: #f2f4f6;
+  --text-muted: #a9b1ba;
+  --doodle: rgba(20, 179, 189, 0.22);
+  --radius: 14px;
+  --font: "Poppins", system-ui, sans-serif;
+  --font-hand: "Caveat", "Comic Sans MS", cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 76px;
 }
 
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: "Inter", sans-serif;
-  scroll-behavior: smooth;
+  font-family: var(--font);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
 }
 
 #root {
   min-height: 100vh;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
 ::selection {
-  background: var(--purple-primary);
+  background: var(--teal);
   color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 3px;
 }
 
 ::-webkit-scrollbar {
@@ -41,6 +72,18 @@ body {
   background: var(--bg);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--purple-deep);
+  background: var(--surface-2);
   border-radius: 10px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
 }
